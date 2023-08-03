@@ -1,4 +1,4 @@
-from plugins.dummyio import DummyIOPlugin
+from dummyio import DummyIOPlugin
 
 if __name__ == '__main__':
 
@@ -19,4 +19,3 @@ if __name__ == '__main__':
     # getting post list
     plugin.post_list()
     print("Getting posts and comments completed")
-
